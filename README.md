@@ -1,5 +1,10 @@
-Golang usage
-------------
+# lcd16x2-driver
+
+This library is a fork of [d2r2/go-hd44780](https://github.com/d2r2/go-hd44780).
+
+This library is used for activating and controlling a `Waveshare LCD1602` display from a Raspberry Pi.
+
+### Usage
 
 ```go
 func main() {
@@ -31,8 +36,7 @@ func main() {
 }
 ```
 
-Troubleshoting
---------------
+### Troubleshoting
 
 - *How to obtain fresh Golang installation to RPi device (either any RPi clone):*
 If your RaspberryPI golang installation taken by default from repository is outdated, you may consider
@@ -65,14 +69,12 @@ to discover address occupied by peripheral device. To install utility you should
 
 > NOTE 2: If you experience issue with lcd-device stability play with strobe delays in routine `writeDataWithStrobe(data byte)`. Default settings: 200 ms (microseconds) for setting stober, and 30 ms for exposing it to zero. Try to increase them a little bit, if you expirience any malfunction.
 
-Credits
--------
+### Credits
 
 [d2r2/go-hd44780](https://github.com/d2r2/go-hd44780)
 
 [davecheney/i2c](https://github.com/davecheney/i2c)
 
-License
--------
+### License
 
 `lcd16x2-driver` is licensed under MIT License.
