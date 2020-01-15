@@ -1,2 +1,2 @@
-github.com/levsthings/go-i2c v0.0.0-20200114171355-fcefcd843a0a h1:EXNcTd6+XV6tRXylzFa54eWnw32YWYSR1lAcF/MCkc4=
-github.com/levsthings/go-i2c v0.0.0-20200114171355-fcefcd843a0a/go.mod h1:1HHdzVhncWPGhEvBDM0Y9JZojww+jm4/wny41ZA9ibM=
+github.com/levsthings/go-i2c v1.0.1 h1:G/S8TCP0Lw1Lw5v+Q1sTAwG2ALzsmc8fGePKguIb9sI=
+github.com/levsthings/go-i2c v1.0.1/go.mod h1:1HHdzVhncWPGhEvBDM0Y9JZojww+jm4/wny41ZA9ibM=
